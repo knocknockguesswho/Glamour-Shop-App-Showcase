@@ -1,0 +1,117 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap'
+);
+
+.container{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header{
+  background-color: green;
+}
+
+.main{
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+
+.usage{
+  flex: 1;
+  height: max-content;
+}
+
+.innerUsage{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+}
+
+.description{
+  width: 100%;
+  flex: .5;
+}
+
+.descTitle{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin: 0;
+}
+
+.descContent{
+  margin-bottom: 2vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.steps{
+  width: 70%;
+  background-color: #DB3022;
+  margin: 5vw auto;
+  padding: 2vw 2vw;
+  border-radius: 1vw;
+}
+
+._step{
+  display: flex;
+  padding: 0 10vw;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+
+.display{
+  flex:1;
+  height: max-content;
+}
+
+.appDisplay{
+  display: flex;
+  flex-direction: row;
+}
+
+.displayItem{
+  width: 25vw;
+}
+
+.rightComp{
+  height: max-content;
+  justify-self: center;
+  align-self: center;
+}
+
+.typoGraph{
+  font-family: 'Poppins', sans-serif;
+}
+
+.badges{
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+}
+
+.about{
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profileContainer{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.development{
+  width: 100%;
+}

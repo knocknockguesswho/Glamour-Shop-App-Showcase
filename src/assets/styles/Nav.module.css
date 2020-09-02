@@ -1,0 +1,79 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap'
+);
+
+.defaultNavbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 2px 2px 10px #00000010;
+}
+
+.defaultNavItem{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto 0 auto 0;
+  align-items: center;
+}
+
+.defaultNavItem li:hover{
+  opacity: .8;
+}
+
+.defaultNavText{
+  color: #DB3022;
+  font-weight: 600;
+  font-size: 1vw;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.defaultNavText:hover{
+  border-bottom: 2px solid #DB302260;
+  padding-bottom: .3em;
+}
+
+.borderedNavText{
+  border: .2em solid #DB3022;
+  padding: .5em;
+  cursor: pointer;
+  color: #DB3022;
+  font-weight: 600;
+  font-size: 1vw;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.defaultNavLogo{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  width: 15vw;
+}
+
+.defaultNavLogo p{
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.logoContainer{
+  padding: auto auto;
+}
+
+.logo{
+  width: 3vw;
+  height: 3vw;
+}
